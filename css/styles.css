@@ -1,0 +1,75 @@
+/* * */
+body {
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  background-color: #ecf0f1;
+  color: #777;
+  line-height: 1.8;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+i {
+    color: #777 !important;
+}
+
+.img {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spacer {
+    padding: 40px 15px;
+}
+
+
+/* Background Images */
+.bgimg-1 {
+    background-image: url(../img/bgimg-1.jpg);
+    min-height: 700px;
+}
+
+.bgimg-2 {
+    background-image: url(../img/bgimg-2.jpg);
+    min-height: 500px;
+}
+
+.bgimg-3 {
+    background-image: url(../img/bgimg-3.jpg);
+    min-height: 500px;
+}
+
+/* Heading */
+.heading {
+    white-space: nowrap;
+    font-family: "Segoe UI",Arial,sans-serif !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px 32px !important;
+    color: #fff !important;
+    background-color: #000 !important;
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-align: center;
+    opacity: .8;
+}
+
+.heading span {
+    font-size: 32px;
+}
+
+/* Portfolio */
+.thumb {
+    padding-bottom: 20px !important;
+}
+
+.thumb:hover {
+    opacity: .8;
+}
