@@ -48,6 +48,10 @@ i {
 .heading {
     white-space: nowrap;
     font-family: "Segoe UI",Arial,sans-serif !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     padding: 80px 32px !important;
     color: #fff !important;
     background-color: #000 !important;
